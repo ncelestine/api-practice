@@ -1,0 +1,4 @@
+Django==5.2.7
+djangorestframework==3.16.1
+graphene-django==3.2.3
+requests>=2.31

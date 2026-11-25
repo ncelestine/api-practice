@@ -1,0 +1,85 @@
+[
+  {
+    "model": "pets.owner",
+    "pk": 1,
+    "fields": {
+      "name": "Maya Lewis",
+      "email": "maya@example.com",
+      "phone_number": "555-0101",
+      "address": "12 Maple Ave"
+    }
+  },
+  {
+    "model": "pets.owner",
+    "pk": 2,
+    "fields": {
+      "name": "Daniel Reyes",
+      "email": "daniel@example.com",
+      "phone_number": "555-0102",
+      "address": "48 Cedar Rd"
+    }
+  },
+  {
+    "model": "pets.pet",
+    "pk": 1,
+    "fields": {
+      "name": "Biscuit",
+      "species": "dog",
+      "breed": "Beagle",
+      "age": 3,
+      "is_adopted": false,
+      "owner": 1
+    }
+  },
+  {
+    "model": "pets.pet",
+    "pk": 2,
+    "fields": {
+      "name": "Luna",
+      "species": "cat",
+      "breed": "Siamese",
+      "age": 2,
+      "is_adopted": true,
+      "owner": 1
+    }
+  },
+  {
+    "model": "pets.pet",
+    "pk": 3,
+    "fields": {
+      "name": "Pepper",
+      "species": "dog",
+      "breed": "Husky",
+      "age": 5,
+      "is_adopted": false,
+      "owner": 2
+    }
+  },
+  {
+    "model": "pets.vaccine",
+    "pk": 1,
+    "fields": {
+      "name": "Rabies",
+      "date_given": "2025-03-10",
+      "pet": 1
+    }
+  },
+  {
+    "model": "pets.vaccine",
+    "pk": 2,
+    "fields": {
+      "name": "Distemper",
+      "date_given": "2025-03-10",
+      "pet": 1
+    }
+  },
+  {
+    "model": "pets.vaccine",
+    "pk": 3,
+    "fields": {
+      "name": "Rabies",
+      "date_given": "2025-06-02",
+      "pet": 3
+    }
+  }
+]
